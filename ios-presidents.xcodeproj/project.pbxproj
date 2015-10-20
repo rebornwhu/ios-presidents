@@ -16,6 +16,7 @@
 		8977772B1BD4B59C009F958E /* ios_presidentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8977772A1BD4B59C009F958E /* ios_presidentsTests.swift */; };
 		897777361BD4B59C009F958E /* ios_presidentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897777351BD4B59C009F958E /* ios_presidentsUITests.swift */; };
 		897777441BD4B5A8009F958E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 897777431BD4B5A8009F958E /* .gitignore */; settings = {ASSET_TAGS = (); }; };
+		F31FC1B01BD5D4060038F42A /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F31FC1AF1BD5D4060038F42A /* PresidentList.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		897777351BD4B59C009F958E /* ios_presidentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_presidentsUITests.swift; sourceTree = "<group>"; };
 		897777371BD4B59C009F958E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897777431BD4B5A8009F958E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		F31FC1AF1BD5D4060038F42A /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PresidentList.plist; path = "../../../../Downloads/Beginning iPhone Development with Swift - source code/Examples/11 - Presidents/Presidents/PresidentList.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				8977771C1BD4B59C009F958E /* Assets.xcassets */,
 				8977771E1BD4B59C009F958E /* LaunchScreen.storyboard */,
 				897777211BD4B59C009F958E /* Info.plist */,
+				F31FC1AF1BD5D4060038F42A /* PresidentList.plist */,
 			);
 			path = "ios-presidents";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				897777441BD4B5A8009F958E /* .gitignore in Resources */,
 				897777201BD4B59C009F958E /* LaunchScreen.storyboard in Resources */,
 				8977771D1BD4B59C009F958E /* Assets.xcassets in Resources */,
+				F31FC1B01BD5D4060038F42A /* PresidentList.plist in Resources */,
 				8977771B1BD4B59C009F958E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +495,7 @@
 				8977773C1BD4B59C009F958E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8977773D1BD4B59C009F958E /* Build configuration list for PBXNativeTarget "ios-presidentsTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				8977773F1BD4B59C009F958E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		897777401BD4B59C009F958E /* Build configuration list for PBXNativeTarget "ios-presidentsUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				897777421BD4B59C009F958E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
