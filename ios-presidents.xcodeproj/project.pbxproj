@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		893316821BD7512500E597CF /* LanguageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893316811BD7512500E597CF /* LanguageListController.swift */; settings = {ASSET_TAGS = (); }; };
 		897777141BD4B59C009F958E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897777131BD4B59C009F958E /* AppDelegate.swift */; };
 		897777161BD4B59C009F958E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897777151BD4B59C009F958E /* MasterViewController.swift */; };
 		897777181BD4B59C009F958E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897777171BD4B59C009F958E /* DetailViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		893316811BD7512500E597CF /* LanguageListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageListController.swift; sourceTree = "<group>"; };
 		897777101BD4B59C009F958E /* ios-presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-presidents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897777131BD4B59C009F958E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		897777151BD4B59C009F958E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				8977771E1BD4B59C009F958E /* LaunchScreen.storyboard */,
 				897777211BD4B59C009F958E /* Info.plist */,
 				F31FC1AF1BD5D4060038F42A /* PresidentList.plist */,
+				893316811BD7512500E597CF /* LanguageListController.swift */,
 			);
 			path = "ios-presidents";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				897777181BD4B59C009F958E /* DetailViewController.swift in Sources */,
 				897777161BD4B59C009F958E /* MasterViewController.swift in Sources */,
 				897777141BD4B59C009F958E /* AppDelegate.swift in Sources */,
+				893316821BD7512500E597CF /* LanguageListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
