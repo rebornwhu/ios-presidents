@@ -90,6 +90,9 @@ class DetailViewController: UIViewController, UIPopoverControllerDelegate {
             }
         }
         
+        let range = NSMakeRange(4, 0);
+        newUrl = (newUrl as NSString).stringByReplacingCharactersInRange(range, withString: "s")
+        
         return newUrl
     }
     
@@ -100,4 +103,3 @@ class DetailViewController: UIViewController, UIPopoverControllerDelegate {
     }
 
 }
-
